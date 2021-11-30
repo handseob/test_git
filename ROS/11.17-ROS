@@ -1,0 +1,49 @@
+11/17(수)
+-Command-line interface, CLI, 커맨드 라인 인터페이스 = 터미널에서 입력가능
+
+
+*알고리즘 성능분석*
+❖ 정확도(correctness)
+❖ 단순성(simplicity)
+❖ 복잡도(complexity)
+
+
+# include <stdio.h>
+int main(void){
+printf(“Hello \n”);
+printf(“Hello \n”);
+printf(“Hello \n”);
+printf(“Hello \n”);
+printf(“Hello \n”);
+printf(“Hello \n”);
+printf(“Hello \n”);
+return 0;
+}
+
+
+# include <stdio.h>
+int main(void){
+int i ;
+for(i=0; i<7; i++){
+printf(“Hello \n”);
+}
+return 0;
+}
+
+
+*빅오 표기법(big-oh notation)*
+❖ O(1) : 입력 자료의 수에 관계없이 일정한 실행 시간을 갖는 알고리즘
+(상수형)
+❖ O(log N) : 입력 자료의 크기가 N일경우 log 2 N 번만큼의 수행시간을 가진다.
+(로그형)
+❖ O(N) : 입력 자료의 크기가 N일경우 N 번만큼의 수행시간을 가진다. (선형)
+❖ O(N log N) : 입력 자료의 크기가 N일경우 N*(log 2 N) 번만큼의 수행시간을
+가진다. (선형로그형)
+❖ O(N 2 ) : 입력 자료의 크기가 N일경우 N 2 번만큼의 수행시간을 가진다.
+(2차형)
+❖ O(N 3 ) : 입력 자료의 크기가 N일경우 N 3 번만큼의 수행시간을 가진다.
+(3차형)
+❖ O(2 n ) : 입력 자료의 크기가 N일경우 2 N 번만큼의 수행시간을 가진다.
+(지수형)
+❖ O(n!) : 입력 자료의 크기가 N일경우 n*(n-1)*(n-2)... * 1(n!) 번만큼의
+수행시간을 가진다.(팩토리얼형)

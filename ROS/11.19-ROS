@@ -1,0 +1,28 @@
+Mem(memory)
+Swap(메모리와 동급)
+NODE = 네트워크에 상관없는 기능의 완전체
+if ip = 가짜 ip -> 외부통신안됌.
+my ip = 진짜 ip
+
+*터미널 명령*
+root->home(유저 관리하는곳)
+/ : root로 가기
+
+df -h : 디스크관리
+pwd : print name of current/working directory(현재 디렉토리)
+dev : 디바이스만 관리함
+
+usr : 어떤 프로그램을 설치하였을때 설치되는폴더 Window의 프로그램 파일이랑 같음
+opt : 업무적으로 프로그램이 설치되는곳 주로 서버용 설치되는경우 많음
+bin : 실제 실행되는 파일들 넣어놓은곳
+unmount : 장비가 꽂혀있는데 인식하지 못하게 하는것
+
+*wireshark*
+PING(Packet Internet Groper)은 컴퓨터 네트워크 상태를 점검, 진단하는 기능이다. 
+IP 기반의 네트워크에 연결된 호스트 사이의 접근을 확인하고 응답이 돌아올 때까지의 반환 시간과,
+상대방 도달 경로의 혼잡 상황도 알아 낼 수 있다.(ex:ping -c 4 ip address)
+출처: https://iot.knu.ac.kr/tech/ISL-TR-20-01-wireshark.pdf
+
+@공유기에는 진짜ip,가짜ip 두개가 부여된다. -> 랜덤하게 부여
+
+traceroute는 실행하는 컴퓨터에서 데이터 패킷을 목적지 서버로 보내어 가는 네트워크 경로를 확인해주는 명령어입니다. traceroute 명령어는 ping과 동일하게 ICMP 프로토콜을 이용하여 경로를 확인해주는 역할을 합니다.
